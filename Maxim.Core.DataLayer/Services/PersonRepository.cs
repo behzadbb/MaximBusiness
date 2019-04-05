@@ -25,5 +25,10 @@ namespace Maxim.Core.DataAccess
         {
             throw new NotImplementedException();
         }
+
+        public void GetPersonById(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

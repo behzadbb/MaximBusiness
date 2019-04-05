@@ -9,5 +9,6 @@ namespace Maxim.Core.DataAccess
         List<Person> GetAll();
         void Insert(Person person);
         void Save();
+        void GetPersonById(int id);
     }
 }
