@@ -11,11 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Peresntions", "Peresntions"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2B9EF89D-62DF-43C2-B026-CB3096C8223F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maxim.Core.DataAccess", "Maxim.Core.DataLayer\Maxim.Core.DataAccess.csproj", "{A6626D6E-5F81-4F86-A467-E238ECE637A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maxim.Core.DataAccess", "Maxim.Core.DataLayer\Maxim.Core.DataAccess.csproj", "{A6626D6E-5F81-4F86-A467-E238ECE637A9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{28085369-178B-4CF8-A5AE-D5167C71EE2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maxim.Common", "Maxim.Common\Maxim.Common.csproj", "{E3511A12-A806-4A59-99E5-4CB48718ABCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maxim.Common", "Maxim.Common\Maxim.Common.csproj", "{E3511A12-A806-4A59-99E5-4CB48718ABCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

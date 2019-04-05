@@ -8,7 +8,7 @@ namespace Maxim.Core.DataAccess
     public class Person
     {
         [Key]
-        public int ID { get; set; }
+        public int PersonId { get; set; }
         public string Name { get; set; }
         public string Family { get; set; }
     }
