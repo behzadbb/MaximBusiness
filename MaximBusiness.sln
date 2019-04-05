@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2B9EF89D-6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maxim.Core.DataAccess", "Maxim.Core.DataLayer\Maxim.Core.DataAccess.csproj", "{A6626D6E-5F81-4F86-A467-E238ECE637A9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{28085369-178B-4CF8-A5AE-D5167C71EE2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maxim.Common", "Maxim.Common\Maxim.Common.csproj", "{E3511A12-A806-4A59-99E5-4CB48718ABCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,10 @@ Global
 		{A6626D6E-5F81-4F86-A467-E238ECE637A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6626D6E-5F81-4F86-A467-E238ECE637A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6626D6E-5F81-4F86-A467-E238ECE637A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3511A12-A806-4A59-99E5-4CB48718ABCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3511A12-A806-4A59-99E5-4CB48718ABCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3511A12-A806-4A59-99E5-4CB48718ABCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3511A12-A806-4A59-99E5-4CB48718ABCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{794CF28E-BCCF-438D-85A4-8B8259338F2A} = {4601B569-D6F2-4CB5-9CB6-A73A3F7DF2B8}
 		{A6626D6E-5F81-4F86-A467-E238ECE637A9} = {2B9EF89D-62DF-43C2-B026-CB3096C8223F}
+		{E3511A12-A806-4A59-99E5-4CB48718ABCB} = {28085369-178B-4CF8-A5AE-D5167C71EE2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {247A3700-605B-4694-9107-40760E7790D7}
