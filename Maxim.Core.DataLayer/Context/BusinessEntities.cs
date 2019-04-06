@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 
 namespace Maxim.Core.DataAccess
@@ -12,7 +15,17 @@ namespace Maxim.Core.DataAccess
     {
         public DbSet<Person> Persons { get; set; }
 
+       
 
+        //public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        //{
+        //    using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
+        //    {
+        //        var context = serviceScope.ServiceProvider.GetRequiredService<BusinessEntities>();
+        //        context.Database.Migrate();
+        //    }
+
+        //}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -28,12 +41,6 @@ namespace Maxim.Core.DataAccess
             //modelBuilder.Entity<Person>().HasQueryFilter(c => c.IsDeleted == false);
             base.OnModelCreating(modelBuilder);
         }
-
-        //public void ConfigureServices(IServiceCollection services)
-        //{
-        //    var connection = @"Server=.;Database=MyDb;Trusted_Connection=True;";
-        //    services.AddDbContext<BusinessEntities>(options => options.UseSqlServer(connection));
-        //}
 
 
 
