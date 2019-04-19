@@ -1,20 +1,22 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DNTCommon.Web.Core" Version="1.4.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.2.4" />
     <PackageReference Include="Microsoft.Extensions.Caching.SqlServer" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
   </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\Maxim.Common\Maxim.Common.csproj" />
     <ProjectReference Include="..\Maxim.DataLayer\Maxim.DataLayer.csproj" />
     <ProjectReference Include="..\Maxim.Entities\Maxim.Entities.csproj" />
+    <ProjectReference Include="..\Maxim.Services\Maxim.Services.csproj" />
     <ProjectReference Include="..\Maxim.ViewModels\Maxim.ViewModels.csproj" />
   </ItemGroup>
+
 </Project>
